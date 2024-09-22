@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Agregar album</title>
+</head>
+
+<body>
+
+    <div class="contenidoPrincipal">
+
+        <div>
+            <h1 class="tituloLog">Nuevo Album</h1>
+        </div>
+
+        <div class="fixed top-0 left-0 bottom-0 w-[180px] bg-gray-500 text-center overflow-y-auto p-2">
+
+            <div class="text-gray-200 text-xl">
+                <div class="p-2.5 mt-1 flex items-center border-b border-amber-200">
+                    <img src="imagenes/fotoico.ico" alt="foto">
+                    <h1 class="font-bold text-gray-200 text-[15px] ml-3">Nombre Usuario</h1>
+                </div>
+                <div class="p-2.5 mt-1 flex items-center border-b border-amber-200">
+                    <a href="index.html#seccionAlbum">Other albums</a>
+                </div>
+                <div class="p-2.5 mt-1 flex items-center border-b border-amber-200">
+                    <a href="editAlbum.html">Edit Album</a>
+                </div>
+                <div class="p-2.5 mt-1 flex items-center border-b border-amber-200">
+                    <a href="#">Add Songs</a>
+                </div>
+                <div class="p-2.5 mt-1 flex items-center border-b border-amber-200">
+                    <a href="index.html">Log out</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <form action="https://formspree.io/f/xwpejrol" method="post" class="formularioRegistrate">
+
+                <label for="titulo">Titulo</label>
+                <input class="p-2 text-white" id="titulo" name="titulo" type="text" placeholder="Título del album" required>
+
+                <label for="año">Año de lanzamiento</label>
+                <input class="p-2 text-white" id="año" name="año" type="date" placeholder="Año de lanzamiento" required>
+
+                <label for="descripcion">Descripción</label>
+                <textarea id="descripcion" name="descripcion" form="usrform" rows="5" cols="23"
+                    placeholder="Describe el álbum" required
+                    class="w-full p-4 bg-gray-800 text-white rounded"></textarea>
+
+                <label for="imagen">Ingresa una imagen:</label>
+                <input class="p-2 text-white" type="text" id="imagen" name="imagen" pattern="https?:\/\/[^\s]+"
+                    placeholder="Colocá la url de la imagen" required>
+
+                <button type="submit" class="botonFormularios">Agregar album</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

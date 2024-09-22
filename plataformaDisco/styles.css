@@ -1,0 +1,131 @@
+body {
+    background-color: rgba(0, 0, 0, 0.959);
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh;
+}
+
+
+.contenidoPrincipal {
+    margin-left: 180px;
+    padding: 20px;
+    flex: 1;
+    background-image: url(imagenes/fondo-formularios.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.contenidoPrincipalHome {
+    margin-left: 180px;
+    padding: 20px;
+    flex: 1;
+    background-image: none;
+
+}
+
+
+h1 {
+    font-family: "Stick No Bills", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #4391b5;
+    margin-top: 3px;
+}
+
+h3 {
+    color: rgba(0, 0, 0, 0.815);
+    font-size: x-large;
+    font-family: cursive;
+
+}
+
+
+.tituloLog{
+
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-family: cursive;
+    text-align: center;
+    }
+    
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.formularioRegistrate {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff9c;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+label {
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    font-size: large;
+    font-family: unset;
+}
+
+input {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #171717cc;
+    box-shadow: inset 2px 5px 10px rgba(5, 5, 5, 0.361);
+}
+
+
+
+.miembro {
+    color: rgba(255, 255, 255, 0.877);
+    margin-bottom: 5px;
+    padding-top: 5%;
+    text-align: center;
+
+}
+
+.miembro a {
+    color: rgb(49, 199, 207);
+    text-decoration: none;
+}
+
+.botonFormularios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+
+}
+
+.botonFormularios:hover {
+    color: #000000;
+    box-shadow: inset 0 0 10px rgba(180, 180, 180, 0.747), 0 0 9px 3px rgba(61, 153, 179, 0.89);
+}
+
+
+
+.fondoPaginaAlbum{
+    background-image: url(imagenes/fondoterceralbum.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+

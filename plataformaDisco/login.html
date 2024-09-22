@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Inicia sesión</title>
+</head>
+
+<body>
+
+    <div class="contenidoPrincipal">
+
+    <div class="fixed top-0 left-0 bottom-0 w-[180px] bg-gray-500 text-center overflow-y-auto p-2">
+
+        <div class="text-gray-200 text-xl">
+            <div class="p-2.5 mt-1 flex items-center border-b border-amber-200">
+                <img src="imagenes/fotoico.ico" alt="foto">
+                <h1 class="font-bold text-gray-200 text-[15px] ml-3">Nombre Usuario</h1>
+            </div>
+            <div class="p-2.5 mt-1 flex items-center border-b border-amber-200">
+                <a href="#">Other albums</a>
+            </div>
+            <div class="p-2.5 mt-1 flex items-center border-b border-amber-200">
+                <a href="editAlbum.html">Edit Album</a>
+            </div>
+            <div class="p-2.5 mt-1 flex items-center border-b border-amber-200">
+                <a href="#">Add Songs</a>
+            </div>
+            <div class="p-2.5 mt-1 flex items-center border-b border-amber-200">
+                <a href="index.html">Log out</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <h3 class="tituloLog">Log In</h3>
+
+        <form action="https://formspree.io/f/xvgpnwaz" method="post" class="formularioRegistrate">
+
+
+            <label class="m-5" for="correo">E-mail</label>
+            <input class="p-2" id="correo" name="correo" type="email" placeholder="Tu correo acá" required>
+
+            <label class="m-5" for="contraseña">Contraseña</label>
+            <input class="p-2" id="contraseña" name="contraseña" type="password" placeholder="Tu clave acá" required>
+
+            <button type="submit" class="botonFormularios">Enviar</button>
+
+
+        </form>
+
+        <div class="miembro">
+            <p>¿Aún no sos miembro? <a href="signUp.html">Registrate</a></p>
+        </div>
+    </div>
+
+
+    </div>
+</body>
+
+</html>
